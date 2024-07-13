@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode PDC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Barcode PDC</h1>
+    <div class="Header">
+        <div class="left-section">
+            <input type="text" class="search-input" id="searchInput" placeholder="Enter style number">
+        </div>
+        <div class="right-section"></div>
+            <button id="fetch-button">Get Data</button>
+        </div>
+    </div>
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th class="col-0">Style</th>
+                <th class="col-1">Fabric Article</th>
+                <th class="col-2">BAG Article Number</th>
+                <th class="col-3">Content</th>
+                <th class="col-4">Count/Const</th>
+                <th class="col-5">Width/Weight</th>
+                <th class="col-6">Country Of Origin</th>
+                <th class="col-7">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted here by JavaScript -->
+        </tbody>
+    </table>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jsbarcode"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>
